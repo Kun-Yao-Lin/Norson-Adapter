@@ -1,0 +1,40 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tw.com.arnold_lin.libs.norson_adapter">
+
+    <application
+        android:name=".sample.NorsonApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".sample.SampleListActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--mix-->
+        <activity
+            android:name=".sample.mix.MixAdapterActivity"
+            android:label="@string/mix">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="tw.com.arnold_lin.libs.norson_adapter.sample" />
+            </intent-filter>
+        </activity>
+
+        <!--&lt;!&ndash;wrapper&ndash;&gt;-->
+        <!--<activity-->
+            <!--android:name=".sample.wrappers.LimitLessAdapterActivity"-->
+            <!--android:label="@string/wrapper_limitless">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="tw.com.arnold_lin.libs.norson_adapter.sample" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
+    </application>
+
+</manifest>

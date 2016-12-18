@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Norson-Adapter</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="add">按我，我就加</string>
+
+    <string name="basic">基礎</string>
+    <string name="mix">混合</string>
+
+    <string name="wrapper_recipe">擴充 - 循環滾動</string>
+    <string name="wrapper_limitless">擴充 - 無限滾動</string>
+    <string name="wrapper_asymmetric">擴充 - 非對稱</string>
+    <string name="wrapper_deck">擴充 - 甲板</string>
+    <string name="wrapper_asymmetric_limitless">擴充 - 非對稱 + 無限滾動</string>
+
+</resources>
